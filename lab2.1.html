@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Lab2.1</title>
+</head>
+<body>
+    <form action="/submit" method="post"><!--Форма-->
+        <fieldset><!--Группировка элементов формы-->
+            <legend>Fields</legend>
+       <p><label for="name">Name:</label>
+        <input type="text" id="name" name="name" required></p>
+        
+        <p><label for="email">email:</label>
+        <input type="email" id="email" name="email" required></p>
+        
+        <p><label for="password">Password:</label>
+        <input type="password" id="password" name="password" required></p>
+        
+        <p><label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="2" cols="21"></textarea></p>
+        
+        </fieldset>
+    </form>
+
+    <p><fieldset><!--Группировка поля выбора и кнопок-->
+        <legend>Select&Buttons</legend>
+    <p><label for="country">Country:</label><!--Поле выбора-->
+       <select id="country" name="country" required>
+           <option value="">Select your country</option>
+           <option value="us">United States</option>
+           <option value="ca">Canada</option>
+           <option value="uk">United Kingdom</option>
+           <option value="au">Australia</option>
+       </select></p>
+
+    <p><button type="submit">Submit</button><!--Кнопки-->
+    <button type="reset">Reset</button></p>
+    </fieldset></p>
+
+</body>
+</html>
