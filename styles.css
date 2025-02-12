@@ -1,0 +1,20 @@
+p {
+    color: rgb(191, 209, 57);
+    font-size: 14px;
+ }
+ 
+.unorderedList {
+    font-style: oblique;
+}
+
+#header {
+    color:rgb(23, 72, 197)
+}
+
+#paragraph {
+    color:rgb(164, 77, 15)
+}
+
+.paragraph {
+    color:rgb(17, 150, 148)
+}
