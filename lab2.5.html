@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Lab2.5</title>
+ <style>
+    h2 { /*Изменение цвета заголовков*/
+        color:rgb(49, 58, 193)
+    }
+    #container1 {/*Стиль контейнера с фоновым изображением*/
+        background-color: rgb(109, 109, 109);
+        background-image: url('IMG_lab2.5.jpg');
+        width: 500px;
+        height: 250px
+    }
+    #container2 {/*Стиль контейнера с отсупами и рамками*/
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid black; 
+        width: 100px;
+        height: 50px
+    }
+    #container3 {/*Стиль контенера с изображением большего размера*/
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid black; 
+        width: 400px;
+        height: 200px;
+        overflow: scroll;
+    }
+ </style>
+</head>
+<body>
+<!--Ниже центрирование заголовка-->
+<h2 style="text-align: center;">Образование</h2>
+<!--Ниже встроенный стиль параграфа-->
+<p style="font-size: 20px; font-weight: bold;"><b>2010-2015</b><br>Казахстанско-Российский медицинский университет - Общая медицина</p>
+<p><b>2015-2017</b><br>Казахстанско-Российский медицинский университет - Акушерство и гинекология</p>
+
+<h2>Опыт работы</h2>
+<p><b>сент 2020 - окт 2021</b><br>Костанайская областная больница - акушер-гинеколог</p>
+
+<h2>Дополнительно</h2>
+<p><b>Знание языков</b><br>Казахский, русский, английский</p>
+<div id="container1">
+    Container1 text
+</div>
+<div id="container2" >
+    Container2 text
+</div>
+<div id="container3" >
+    <img src="IMG_lab2.5.jpg" alt="Cats">
+</div>
+</body>
+</html>
