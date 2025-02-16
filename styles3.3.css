@@ -1,0 +1,49 @@
+#header1 {
+    background-color: rgb(232, 163, 163);
+    display: inline; /*Блочный элемент преобразован в строчный*/
+    color: rgb(74, 23, 23)
+}
+
+#paragraph1 {
+    background-color: rgb(232, 163, 163);
+    color: rgb(74, 23, 23)
+}
+
+#container1 {
+    background-color: rgb(232, 163, 163);
+    color: rgb(74, 23, 23)
+}
+
+#image1 {
+    display: block; /*Строчный элемент преобразован в блочный*/
+    width: 300px;
+    height: 300px;
+    margin: 10px
+}
+
+#container2 {
+    background-color: rgb(232, 163, 163);
+    color: rgb(74, 23, 23);
+    margin: 10px; /*Добавлены отступы и границы*/
+    padding: 10 px;
+    border: solid rgb(74, 23, 23);
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center /*Центрирование по вертикали*/
+}
+
+#paragraph2 {
+    background-color: rgb(232, 163, 163) 
+}
+
+#image2 {
+    width: 425px;
+    height: 230px;
+    display: block; /*Строчный элемент преобразован в блочный*/
+    margin: 10px;
+    border: solid rgb(74, 23, 23)
+}
+
+#anchor2 {
+    display: block /*Строчный элемент преобразован в блочный*/
+}
