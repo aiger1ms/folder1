@@ -1,0 +1,37 @@
+html {
+    font-size: 16px /*Задан точный размер шрифта корневого элемента*/
+}
+
+#paragraph1 {
+    color: rgba(61, 10, 10, 0.6); /*Применена цветовая модель rgba*/
+    background-color: rgba(220, 171, 171, 0.6);
+}
+
+#paragraph2 {
+    font-size: 1.5rem; /*Задан размер шрифта относительно корневого элемента*/
+    color: rgb(61, 10, 10); /*Применена цветовая модель rgb*/
+    background-color: rgb(220, 171, 171);
+}
+
+#container1 {
+    font-size: 18px; /*Задан точный размер шрифта родительского элемента*/
+    width: 380px;
+    height: 200px;
+    background-color: #ce7676 /*Применена цветовая модель hex*/
+}
+
+#paragraphInContainer1 {
+    font-size: 2em; /*Задан размер шрифта относительно родительского элемента*/
+}
+
+#container2 {
+    width: 300px; /*Задан точный размер ширины родительского элемента*/
+    height: 300px;
+    background-color: rgb(61, 10, 10);
+}
+
+#container3 {
+    width: 50%; /*Задан процент ширины относительно родительского элемента*/
+    height: 50%; 
+    background-color: rgb(133, 49, 49);
+}
