@@ -1,49 +1,42 @@
-#header1 {
-    background-color: rgb(232, 163, 163);
-    display: inline; /*Блочный элемент преобразован в строчный*/
-    color: rgb(74, 23, 23)
+.input:focus { /*Изменение цвета границы поля ввода в фокусе*/
+    border: 4px solid #91a1f1
 }
 
-#paragraph1 {
-    background-color: rgb(232, 163, 163);
-    color: rgb(74, 23, 23)
+.button:hover { /*Изменение цвета фона кнопки при наведении курсора*/
+    background-color: #91a1f1
 }
 
-#container1 {
-    background-color: rgb(232, 163, 163);
-    color: rgb(74, 23, 23)
+.u-list-item:first-child { /*Изменение стиля первого элемента списка*/
+    font-weight: bold
 }
 
-#image1 {
-    display: block; /*Строчный элемент преобразован в блочный*/
-    width: 300px;
-    height: 300px;
-    margin: 10px
+.u-list-item:first-child:hover { /*Комбинация псевдоклассов: Изменение стиля первого элемента списка при наведении курсора*/
+    font-weight: bold;
+    background-color: #91a1f1;
 }
 
-#container2 {
-    background-color: rgb(232, 163, 163);
-    color: rgb(74, 23, 23);
-    margin: 10px; /*Добавлены отступы и границы*/
-    padding: 10 px;
-    border: solid rgb(74, 23, 23);
-    display: flex;
-    justify-content: center; /*Центрирование по горизонтали*/
-    align-items: center /*Центрирование по вертикали*/
+.u-list-item:last-child { /*Изменение стиля последнего элемента списка*/
+    font-weight: bold
 }
 
-#paragraph2 {
-    background-color: rgb(232, 163, 163) 
+.u-list-item:last-child:hover { /*Комбинация псевдоклассов: Изменение стиля ласт элемента списка при наведении курсора*/
+    font-weight: bold;          /*Применить здесь focus не получилось*/
+    background-color: red;
 }
 
-#image2 {
-    width: 425px;
-    height: 230px;
-    display: block; /*Строчный элемент преобразован в блочный*/
-    margin: 10px;
-    border: solid rgb(74, 23, 23)
+.reference:hover { /*Изменение цвета ссылки при наведении курсора*/
+    color: #1f36ac;
+    font-weight: bold;
 }
 
-#anchor2 {
-    display: block /*Строчный элемент преобразован в блочный*/
+.reference:focus { /*Изменение цвета ссылки в фокусе*/
+    color: rgb(82, 81, 81)
+}
+
+.o-list-item:nth-child(odd) { /*Изменение стиля нечетных элементов списка*/
+    background-color: #dbdff1;
+}
+
+.o-list-item:nth-child(even) { /*Изменение стиля четных элементов списка*/
+    background-color: #91a1f1
 }
